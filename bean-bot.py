@@ -34,8 +34,7 @@ def get_spam_speed():
 
 
 def get_timeout_and_timeout():
-    timeout = float(
-        input("Enter the time you need to open the app and focus the cursor on:"))
+    timeout = float(input("Enter the time you need to open the app and focus the cursor on:"))
     print("HURRY UP AND PLACE YOUR CURSOR WITHIN", timeout, "SECONDS!!")
     sleep(timeout)
 
