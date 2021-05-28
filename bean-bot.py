@@ -23,6 +23,7 @@ def get_spam_type():
 # which the next spam message has to be sent
 
 def get_spam_speed():
+    print()
     print("=== SPAM SPEED speed (seconds) ===")
     print("Super fast = Enter 0")
     print("Medium speed = Enter 0.7")
@@ -100,7 +101,7 @@ def main():
         quit()
 
 
-# the main function
+# calling the main function
 try:
     main()
 except:
